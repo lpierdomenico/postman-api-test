@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "f06d0959-c84f-4b83-8fdb-7717f63c9c04",
+		"name": "ejemplo coleccion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "18197958-f06d0959-c84f-4b83-8fdb-7717f63c9c04"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "36ac99d7-70d0-4333-aa3b-186665b62c11",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "key_sample",
+							"value": "3",
+							"description": "descipcion de key",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:3000/api/hello",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"hello"
+					]
+				},
+				"description": "documentacion para cada request aca"
+			},
+			"response": []
+		}
+	]
+}
