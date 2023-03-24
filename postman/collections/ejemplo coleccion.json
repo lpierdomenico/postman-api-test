@@ -41,6 +41,38 @@
 				"description": "documentacion para cada request aca"
 			},
 			"response": []
+		},
+		{
+			"name": "nueva request",
+			"id": "964dc892-7a18-40cf-8615-81aad8117b59",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"jfiowef\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "sjkdaf/jiwfoajoi/jwfio",
+					"host": [
+						"sjkdaf"
+					],
+					"path": [
+						"jiwfoajoi",
+						"jwfio"
+					]
+				},
+				"description": "descripcion de la request"
+			},
+			"response": []
 		}
 	]
 }
